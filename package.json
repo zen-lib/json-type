@@ -1,0 +1,36 @@
+{
+	"name": "json-type",
+	"version": "1.0.0",
+	"description": "JSON type definitions library",
+	"main": "./dist/cjs/index.js",
+	"module": "./dist/esm/index.js",
+	"types": "./dist/types/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/cjs/index.js",
+			"import": "./dist/esm/index.js",
+			"types": "./dist/types/index.d.ts"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"clean": "rm -rf dist",
+		"build": "npm run clean && npm run build:esm && npm run build:cjs",
+		"build:esm": "tsc -p tsconfig.esm.json",
+		"build:cjs": "tsc -p tsconfig.cjs.json",
+		"prepublishOnly": "npm run build"
+	},
+	"keywords": [
+		"json",
+		"typescript",
+		"types"
+	],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^5.7.2",
+		"typescript-eslint": "^8.16.0"
+	}
+}
