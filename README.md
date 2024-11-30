@@ -1,17 +1,17 @@
-# json-type
+# type-json
 
 A lightweight TypeScript library providing type definitions for JSON data structures.
 
 ## Installation
 
 ```bash
-npm install json-type
+npm install type-json
 ```
 
 ## Usage
 
 ```typescript
-import { JSONValue, JSONObject, JSONArray, JSONPrimitive } from 'json-type';
+import { JSONValue, JSONObject, JSONArray, JSONPrimitive } from 'type-json';
 
 // Use as type annotations
 const myJson: JSONValue = {

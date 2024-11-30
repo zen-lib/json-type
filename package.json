@@ -1,5 +1,5 @@
 {
-	"name": "json-type",
+	"name": "type-json",
 	"version": "1.0.0",
 	"description": "JSON type definitions library",
 	"main": "./dist/cjs/index.js",
@@ -27,8 +27,8 @@
 		"typescript",
 		"types"
 	],
-	"author": "",
-	"license": "ISC",
+	"author": "Matej Ukmar",
+	"license": "MIT",
 	"devDependencies": {
 		"typescript": "^5.7.2",
 		"typescript-eslint": "^8.16.0"
