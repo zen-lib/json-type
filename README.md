@@ -1,17 +1,17 @@
-# type-json
+# zen-json-type
 
 A lightweight TypeScript library providing type definitions for JSON data structures.
 
 ## Installation
 
 ```bash
-npm install type-json
+npm install zen-json-type
 ```
 
 ## Usage
 
 ```typescript
-import { JSONValue, JSONObject, JSONArray, JSONPrimitive } from 'type-json';
+import { JSONValue, JSONObject, JSONArray, JSONPrimitive } from 'zen-json-type';
 
 // Use as type annotations
 const myJson: JSONValue = {

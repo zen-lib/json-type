@@ -1,5 +1,5 @@
 {
-	"name": "type-json",
+	"name": "zen-json-type",
 	"version": "1.0.0",
 	"description": "JSON type definitions library",
 	"main": "./dist/cjs/index.js",
